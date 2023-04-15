@@ -129,6 +129,7 @@ body{
 .lista__link{
     display: flex;
     margin: 0 1em;
+    justify-content: center;
 }
 .lista__link a{
     color: var(--cinza-secundario);
