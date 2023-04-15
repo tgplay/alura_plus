@@ -140,7 +140,7 @@ body{
     margin: 2em 0;
     color: var(--cinza-secundario);
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){/* isso só será aplicado a partir dessa largura para uma largura menor */
     .container{
         display: block;
         background-image: none;
