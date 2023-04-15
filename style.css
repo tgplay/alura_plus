@@ -4,6 +4,7 @@
     --botao-azul: #167bf7;
     --cor-de-fundo: #00030c;
     --fonte-principal: 'Inter';
+    --bota-azul-efeito: #3c92fa;
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -22,7 +23,8 @@ body{
     background-image: url('img/Background.png');
     background-repeat: no-repeat;
     background-size: contain;
-    
+    align-items: center;
+    text-align: center;
 }
 .container{
     height: 100vh;
@@ -36,6 +38,7 @@ body{
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 .botao_secundario{
     background-color: transparent;
@@ -50,4 +53,91 @@ body{
 }
 .container__titulo{
     font-size: 28px;
+    font-weight: 700;
+}
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+.container__caixa{
+    margin: 0 6em;
+}
+.container__imagem{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 0.1em;
+}
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+.container__descricao{
+    padding: 2em;
+}
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+.lista__item{
+    font-size: 32px;
+}
+.rodape{
+    text-align: center;
+    margin: 0 3em;
+    
+}
+.rodape__logo{
+    margin-bottom: 2em;
+}
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+.lista__link a:active{
+    color: purple;
+
+}
+.container__botao:hover{
+    background-color: var(--bota-azul-efeito);
+    color: var(--cor-de-fundo);
+
+}
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em 0;
+}
+.lista__link{
+    display: flex;
+    margin: 0 1em;
+}
+.lista__link a{
+    color: var(--cinza-secundario);
+    text-decoration: none;
+    font-size: 14px;
+}
+.rodape__texto{
+    font-size: 14px;
+    margin: 2em 0;
+    color: var(--cinza-secundario);
+    
 }
